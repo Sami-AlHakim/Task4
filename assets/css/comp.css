@@ -1,0 +1,50 @@
+.companies-section {
+  background-image: url('../Images/Section Background.svg');
+  background-size: cover;
+  padding: 115px 0 64px;
+}
+.companies-section .comps {
+  margin: 0 auto 64px;
+}
+.companies-section .comps h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.companies-section .comps .comp-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.companies-section .comps .comp-wrapper i {
+  color: var(--text-color);
+}
+.companies-section .comps .comp-wrapper .comp {
+  text-align: center;
+}
+.companies-section .comps .comp-wrapper .comp img{
+  margin-bottom: 18px;
+}
+.companies-section .comps .comp-wrapper .comp p {
+  text-align: center;
+  font-weight: 500;
+  color: var(--second-color);
+}
+@media (max-width: 768px) {
+  .companies-section .comps .comp-wrapper i {
+    font-size: 18px;
+  }
+  .companies-section .comps .comp-wrapper .comp img {
+    width: 40px;
+  }
+  .companies-section .comps .comp-wrapper .comp p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .companies-section .comps .comp-wrapper .comp img {
+    width: 65px;
+  }
+}
