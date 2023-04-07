@@ -37,23 +37,21 @@
   width: 600px;
   max-width: 100%;
   margin: 0 auto 32px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid black;
 }
 .search-section .container .input input {
-  width: 100%;
   padding-bottom: 8px;
   outline: none;
   border: none;
-  border-bottom: 1px solid black;
   background-color: transparent;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: var(--text-color);
-}
-.search-section .container .input .icns {
-  position: absolute;
-  top: 0;
-  right: 8px;
+  flex: 1;
 }
 .search-section .container .input .icns img:last-child {
   margin-left: 8px;
